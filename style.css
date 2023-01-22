@@ -1,0 +1,27 @@
+
+.container {
+  height: 100vh; 
+  text-align: center;
+  display: grid;
+  grid-template: 75px 100px 1fr / 1fr 4fr;
+}
+
+.sidebar {
+  background-color: #247B7B;
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+.header {
+  background-color: #e0f2fe;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.nav {
+  background-color: #e0f2fe;
+  grid-area: 2 / 2 / 3 / 3; 
+}
+
+.content {
+  background-color: #e2e8f0;
+}
+
