@@ -1,27 +1,88 @@
+* {
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", 
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
 .container {
-  height: 100vh; 
-  text-align: center;
+  height: 100vh;
   display: grid;
   grid-template: 75px 100px 1fr / 1fr 4fr;
 }
 
 .sidebar {
-  background-color: #247B7B;
+  background-color: #247b7b;
   grid-area: 1 / 1 / 4 / 2;
 }
 
 .header {
-  background-color: #e0f2fe;
+  background-color: #fffffa;
   grid-area: 1 / 2 / 2 / 3;
 }
 
 .nav {
-  background-color: #e0f2fe;
-  grid-area: 2 / 2 / 3 / 3; 
+  background-color: #fffffa;
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .content {
   background-color: #e2e8f0;
+  grid-area: 3 / 2 / 4 / 3;
+  display: grid;
+  grid-template-columns: 3fr 1fr; 
 }
+
+.projects {
+  grid-column: 1 / 2; 
+}
+
+.sidebar-right {
+  grid-column: 2 / 3;
+}
+
+
+
+.card-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px; 
+  padding: 15px; 
+}
+
+.card-layout div {
+  height: 200px;
+  background-color: white;
+  border: 3px black solid; 
+}
+
+.announcements {
+  display: grid;
+  gap: 15px; 
+  padding: 15px; 
+}
+
+.announcements div {
+  height: 50px; 
+  background-color: white;
+  border: 3px black solid;
+  overflow: auto; 
+}
+
+.label-announcements, .label-trending, .label-projects {
+  padding-left: 15px; 
+}
+
+.trending {
+  display: grid;
+  gap: 15px;
+  padding: 15px; 
+}
+
+.trending div {
+  height: 50px;
+  background-color: white;
+  border: 3px black solid;
+  overflow: auto; 
+}
+
+
 
