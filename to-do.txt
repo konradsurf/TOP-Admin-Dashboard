@@ -1,19 +1,15 @@
-[ ] Priority - turn sidebar into a grid so I don't have to fight with default margins and other bullshiz
+[x] Priority - turn sidebar into a grid so I don't have to fight with default margins and other bullshiz
 
-[ ] Grid for .content - right now have as four rows, with 3rd track for the "Trending" label.  But this track is fixed height and stretches across the card area.  Would it be better to create a right side grid for announcement and trending section? 
+[x] Grid for .content - right now have as four rows, with 3rd track for the "Trending" label.  But this track is fixed height and stretches across the card area.  Would it be better to create a right side grid for announcement and trending section? 
 
 [x] create gaps between cards
 
-[ ] margin or gaps for section labels to not be crowded against border? Or padding? 
+[x] margin or gaps for section labels to not be crowded against border? Or padding? 
 
-[ ] do section labels need to be in grid? Or just have each section below them in its own grid? 
+[x] do section labels need to be in grid? Or just have each section below them in its own grid? 
 
 [x] margin or padding to make outside spacing same as grid gaps? (Ex.for the board cards). -- SOLVED added padding to grid containers that contain cards
 
-[ ] keep scrollbars for announcements and trending?  Maybe increase width/height and keep only for super long stuff? 
+[x] keep scrollbars for announcements and trending?  Maybe increase width/height and keep only for super long stuff? 
 
-[ ] drop shadows for cards
-
-[ ] mouse over effect for links (in the sidebar for example)
-
-[ ] import roboto font
+[x] import roboto font
