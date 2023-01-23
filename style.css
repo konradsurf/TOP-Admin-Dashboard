@@ -10,22 +10,30 @@
 }
 
 .sidebar {
-  background-color: #5BC0F8;
+  background-color: #5EAAA8;
   grid-area: 1 / 1 / 4 / 2;
   padding: 15px;
   display: grid;
   grid-template: 100px repeat(10, 50px) / 50px 1fr;
   align-items: center;
+  color: #2C3333; 
+
 }
 
 .header {
   background-color: #fffffa;
   grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .nav {
   background-color: #fffffa;
   grid-area: 2 / 2 / 3 / 3;
+  display: flex; 
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .content {
@@ -37,11 +45,13 @@
 .projects {
   background-color: #e2e8f0;
   grid-column: 1 / 2; 
+  color: #2C3333; 
+
 }
 
 .sidebar-right {
-  background-color: #0081C9;
-  color: white; 
+  background-color: #056676;
+  color: #eae7e4fb;
   grid-column: 2 / 3;
 }
 
@@ -72,13 +82,15 @@
   border: 3px black solid;
   overflow: auto; 
   border-radius: 8px;
-  background-color: #86E5FF;
-  color: black; 
+  background-color: rgb(231, 225, 225);
+  color: #2C3333; 
+  font-size: 0.75rem;
 
 }
 
 .label-announcements, .label-trending, .label-projects {
   padding-left: 15px; 
+  font-size: 1rem;
 }
 
 .trending {
@@ -89,10 +101,12 @@
 
 .trending div {
   height: 50px;
-  background-color: white;
+  background-color: rgb(231, 225, 225);
   border: 3px black solid;
   overflow: auto; 
   border-radius: 8px;
+  color: #2C3333; 
+  font-size: 0.75rem;
 }
 
 img.sidebar-heading {
@@ -116,4 +130,33 @@ p.sidebar-item {
   grid-column: 2 / span 1; 
 }
 
+.trending div h4 {
+  padding: 3px; 
+  margin: auto;
+}
 
+.trending div p {
+  padding: 3px;
+  margin: auto;
+}
+
+.announcements div {
+  padding: 3px;
+  margin: auto; 
+}
+
+.header-icon {
+  height: 1.5rem;
+  color: black; 
+}
+
+.nav-icon {
+  height: 3rem;
+}
+
+.nav-button {
+  height: 30px;
+  width: 75px;
+  background-color: #5EAAA8;
+  border-radius: 6px;
+}
