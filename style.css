@@ -33,7 +33,7 @@
   background-color: #fffffa;
   grid-area: 2 / 2 / 3 / 3;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -154,6 +154,7 @@ p.sidebar-item {
 .header-icon {
   height: 1.5rem;
   color: black;
+  padding: 10px; 
 }
 
 .nav-icon {
@@ -165,4 +166,17 @@ p.sidebar-item {
   width: 75px;
   background-color: #5eaaa8;
   border-radius: 6px;
+  margin: 5px; 
+}
+
+.nav-left {
+  padding: 10px; 
+  display: flex;
+  /* justify-content: start; */
+}
+
+.nav-right {
+  padding: 10px;
+  display: flex;
+  /* justify-content: end;  */
 }
